@@ -66,7 +66,7 @@ print(f"Password strength: {pass_strength}")
 
 
 #A function that creates/generates a random password
-import secrets, string
+import secrets, string #secret - randomly and securely chooses characters from the set of allowed characters
 def generate_random_password(length=16):
     characters = string.ascii_letters + string.digits + string.punctuation
     # print(characters)
